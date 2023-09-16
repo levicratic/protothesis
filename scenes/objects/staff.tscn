@@ -1,0 +1,84 @@
+[gd_scene load_steps=18 format=3 uid="uid://djl7dx3v8yq40"]
+
+[ext_resource type="Texture2D" uid="uid://q4vn4ub6231j" path="res://graphics/staff-frames/handle.png" id="1_1686y"]
+[ext_resource type="Texture2D" uid="uid://do65r3gpwyat5" path="res://graphics/staff-frames/orb-1.png" id="2_8uvhv"]
+[ext_resource type="Texture2D" uid="uid://bbawxck41kb6w" path="res://graphics/staff-frames/orb-2.png" id="3_fdiv1"]
+[ext_resource type="Texture2D" uid="uid://buqbumnvasqk" path="res://graphics/staff-frames/orb-3.png" id="4_r7s61"]
+[ext_resource type="Texture2D" uid="uid://kb2vfgrhgpwb" path="res://graphics/staff-frames/orb-4.png" id="5_32rsh"]
+[ext_resource type="Texture2D" uid="uid://d2l7qijqdaa6p" path="res://graphics/staff-frames/orb-5.png" id="6_6h0b0"]
+[ext_resource type="Texture2D" uid="uid://rsn1iahqflgy" path="res://graphics/staff-frames/orb-6.png" id="7_3p5bf"]
+[ext_resource type="Texture2D" uid="uid://xlloxvvfk7so" path="res://graphics/staff-frames/orb-7.png" id="8_8bw6j"]
+[ext_resource type="Texture2D" uid="uid://c4tu0ywpqguxp" path="res://graphics/staff-frames/orb-8.png" id="9_bktih"]
+[ext_resource type="Texture2D" uid="uid://decl6qssfmr6i" path="res://graphics/staff-frames/orb-9.png" id="10_0uenb"]
+[ext_resource type="Texture2D" uid="uid://lkap586b5232" path="res://graphics/staff-frames/orb-10.png" id="11_tl2sj"]
+[ext_resource type="Texture2D" uid="uid://cwwt6bfuyw72w" path="res://graphics/staff-frames/orb-11.png" id="12_l0bmn"]
+[ext_resource type="Texture2D" uid="uid://cmoddcko2nhwo" path="res://graphics/staff-frames/orb-12.png" id="13_1gfgq"]
+[ext_resource type="Texture2D" uid="uid://dj5yo486ybrw7" path="res://graphics/staff-frames/orb-13.png" id="14_of1g1"]
+[ext_resource type="Texture2D" uid="uid://e310arwu7jhs" path="res://graphics/staff-frames/orb-14.png" id="15_hklyr"]
+[ext_resource type="Script" path="res://graphics/staff-frames/staff.gd" id="16_limel"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q2vhu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8uvhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_fdiv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_r7s61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_32rsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6h0b0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3p5bf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8bw6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bktih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0uenb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_tl2sj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_l0bmn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1gfgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_of1g1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_hklyr")
+}],
+"loop": true,
+"name": &"sparkle",
+"speed": 6.0
+}]
+
+[node name="Staff" type="Node2D"]
+position = Vector2(534, 286)
+rotation = 1.5708
+scale = Vector2(-10, 10)
+
+[node name="Handle" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_1686y")
+
+[node name="Orb" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_q2vhu")
+animation = &"sparkle"
+frame_progress = 0.14377
+script = ExtResource("16_limel")

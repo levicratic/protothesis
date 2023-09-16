@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bilb80jpgkc25"
-path="res://.godot/imported/backdrop.jpg-0e3a2d44bd90a3c75a5c197f973cff69.ctex"
+uid="uid://rsn1iahqflgy"
+path="res://.godot/imported/orb-6.png-14ebb8d3b5b67ddb3d6c906539f209f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/backdrop.jpg"
-dest_files=["res://.godot/imported/backdrop.jpg-0e3a2d44bd90a3c75a5c197f973cff69.ctex"]
+source_file="res://graphics/staff-frames/orb-6.png"
+dest_files=["res://.godot/imported/orb-6.png-14ebb8d3b5b67ddb3d6c906539f209f1.ctex"]
 
 [params]
 

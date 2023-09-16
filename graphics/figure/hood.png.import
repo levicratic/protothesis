@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://e310arwu7jhs"
-path="res://.godot/imported/orb-14.png-9c6411affd9af39fa697fa798313c2eb.ctex"
+uid="uid://sg65s3qnqw0r"
+path="res://.godot/imported/hood.png-bd6c09beb4bd7e70a2bab3749a995fb4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/staff/orb-14.png"
-dest_files=["res://.godot/imported/orb-14.png-9c6411affd9af39fa697fa798313c2eb.ctex"]
+source_file="res://graphics/figure/hood.png"
+dest_files=["res://.godot/imported/hood.png-bd6c09beb4bd7e70a2bab3749a995fb4.ctex"]
 
 [params]
 

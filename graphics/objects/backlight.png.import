@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4tu0ywpqguxp"
-path="res://.godot/imported/orb-8.png-2782d778ba5326693521bccb0fe0fa81.ctex"
+uid="uid://dvcajwsh388ms"
+path="res://.godot/imported/backlight.png-c3b2db7d887e772c07eb44df104464c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/staff/orb-8.png"
-dest_files=["res://.godot/imported/orb-8.png-2782d778ba5326693521bccb0fe0fa81.ctex"]
+source_file="res://graphics/objects/backlight.png"
+dest_files=["res://.godot/imported/backlight.png-c3b2db7d887e772c07eb44df104464c9.ctex"]
 
 [params]
 

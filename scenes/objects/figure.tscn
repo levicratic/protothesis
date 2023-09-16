@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://b2osqxfl4rwy"]
+
+[ext_resource type="Texture2D" uid="uid://sg65s3qnqw0r" path="res://graphics/figure/hood.png" id="1_6nth5"]
+[ext_resource type="Script" path="res://graphics/figure/figure.gd" id="1_wgetc"]
+[ext_resource type="Texture2D" uid="uid://gxxojr7bspjx" path="res://graphics/figure/light.png" id="2_srwa4"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_w6qky"]
+radius = 3.0
+
+[node name="figure" type="CharacterBody2D"]
+script = ExtResource("1_wgetc")
+
+[node name="dark" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -2)
+texture = ExtResource("1_6nth5")
+
+[node name="light" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -2)
+texture = ExtResource("2_srwa4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_w6qky")
