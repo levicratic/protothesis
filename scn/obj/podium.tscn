@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bek4bc3el81hg"]
+
+[ext_resource type="Texture2D" uid="uid://dd2phwayqdjjl" path="res://res/grc/obj/podium.png" id="1_j1dv0"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_udgdr"]
+radius = 5.0
+height = 22.0
+
+[node name="podium" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-1, 0)
+texture = ExtResource("1_j1dv0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_udgdr")
