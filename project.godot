@@ -15,18 +15,18 @@ run/main_scene="res://scn/lev/titlescreen.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 run/max_fps=120
 boot_splash/bg_color=Color(0, 0, 0, 1)
-boot_splash/image="res://splash.png"
-config/icon="res://podium.ico"
-config/macos_native_icon="res://podium.ico"
-config/windows_native_icon="res://podium.ico"
+boot_splash/image="res://ico/splash.png"
+config/icon="res://ico/podium.ico"
+config/macos_native_icon="res://ico/podium.ico"
+config/windows_native_icon="res://ico/podium.ico"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/stretch/mode="viewport"
-mouse_cursor/custom_image="res://pointer28.png"
-mouse_cursor/custom_image_hotspot=Vector2(28, 28)
+mouse_cursor/custom_image="res://ico/pointer28.png"
+mouse_cursor/custom_image_hotspot=Vector2(14, 14)
 
 [input]
 
