@@ -18,6 +18,7 @@ autoplay = true
 max_polyphony = 2
 
 [node name="backdrop" type="Sprite2D" parent="."]
+scale = Vector2(10, 10)
 texture = ExtResource("3_04eff")
 
 [node name="stage" type="Node2D" parent="."]
